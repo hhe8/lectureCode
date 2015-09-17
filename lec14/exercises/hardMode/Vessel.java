@@ -2,14 +2,14 @@
  *  @author Josh Hug
  */
 
-public class Vessel {
-    Integer occupant;
+public class Vessel<K> {
+    K occupant;
 
-    public void put(Integer x) {
+    public void put(K x) {
         occupant = x;
     }
 
-    public Integer peek() {
+    public K peek() {
         return occupant;
     }
-} 
+}

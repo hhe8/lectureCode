@@ -24,4 +24,4 @@ public class TestGoalOne {
     public static void main(String[] args) {
         jh61b.junit.textui.runClasses(TestGoalOne.class);
     }
-} 
+}
